@@ -5,13 +5,14 @@ date:       2019-03-25 20:40:00
 summary:    HTML이란? / 기본 문법
 categories: HTML
 ---
-###웹환경 이해
-
+### 웹환경 이해
 URL에 ip, port 정보 모두 포함되어있음..
+| 웹서버 | WAS     |
+|-------|---------|
+| 아파치 |톰캣 8.5.X|
 
-웹서버	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	WAS
-아파치&nbsp;&nbsp;&nbsp;톰캣 8.5.XX
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default.html	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default.html
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;???.jsp -> ???.class : 톰캣의 역할
              
   
@@ -33,8 +34,12 @@ Markup : 문서의 논리적 구조와 배치양식에 대한 정보를 표현�
 ==> HTML은 "웹페이지"의 구조와 배치양식에 대한 정보를 표현하는 언어
 
 html의 요소(element) : 시작태그 ~ 종료태그
+
 ``<title> HTML CLASS </title>``
-[시작태그 	   Content      종료태그] => *****Element(요소) : 안에있는거 모두포함
+
+[시작태그 	   Content      종료태그] =>
+
+*****Element(요소) : 안에있는거 모두포함
 
 브라우저가 parsing (rendering)한다
 
@@ -51,9 +56,10 @@ html의 요소(element) : 시작태그 ~ 종료태그
   
 ---------------> 여기까지가 기본.. 
 
-http://koxo.com/
+[](http://koxo.com/)
 
 ``<br></br> == <br /> == <br>``
+
 xhtml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;html5
 
 
