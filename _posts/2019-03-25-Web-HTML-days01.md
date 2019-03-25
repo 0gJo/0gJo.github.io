@@ -7,13 +7,14 @@ categories: HTML
 ---
 ### 웹환경 이해
 URL에 ip, port 정보 모두 포함되어있음..
+
 | 웹서버 | WAS     |
 |-------|---------|
 | 아파치 |톰캣 8.5.X|
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default.html
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default.html
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;???.jsp -> ???.class : 톰캣의 역할
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;???.jsp -> ???.class : 톰캣의 역할
              
   
 Server ip를 보통 호스팅해주는 업체를 사용.. 
@@ -38,12 +39,11 @@ html의 요소(element) : 시작태그 ~ 종료태그
 ``<title> HTML CLASS </title>``
 
 [시작태그 	   Content      종료태그] =>
-
 *****Element(요소) : 안에있는거 모두포함
 
 브라우저가 parsing (rendering)한다
 
-#####*html 구조(기본형식)
+##### html 구조(기본형식)
 - ``<!DOCTYPE html>`` : HTML5 (소문자사용권장)
 
   '대소문자 구분안하는 HTML5 버전을 따르는 문서이다' 라고  선언한 것.
@@ -56,7 +56,7 @@ html의 요소(element) : 시작태그 ~ 종료태그
   
 ---------------> 여기까지가 기본.. 
 
-[](http://koxo.com/)
+HTML문법 사이트 : [koxo.com](http://koxo.com/)
 
 ``<br></br> == <br /> == <br>``
 
