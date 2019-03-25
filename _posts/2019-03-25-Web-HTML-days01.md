@@ -5,6 +5,22 @@ date:       2019-03-25 20:40:00
 summary:    HTML이란? / 기본 문법
 categories: HTML
 ---
+### WEB 개발을 위한 환경설정
+1. 톰캣 설치 파일 압축풀어서 C드라이브에 위치시키기
+2.  시스템변수 새로만들기 : 변수값에 C드라이브 톰캣설치파일로 설정
+3.  Path - 편집해서  [%CATALINA_HOME%\bin] 새로만들기
+4.  자바에서 NEW- Dynamic Web Project
+5.  TargetRuntime 을 현재 설치된 톰캣버전으로 설정 (서버를 설정하는 단계임 / Eclipse에 톰캣서버를 plug-in하는것 (직접 컴퓨터에 서버설치x )
+6.  WebContent가서 이제 html파일 만들고.. 할거하기..
+
+Server에 port 충돌나면 Port번호 바꿔주기 (server.xml 7번째줄 )
+
+
+
+
+- - -
+
+
 ### 웹환경 이해
 URL에 ip, port 정보 모두 포함되어있음..
 
