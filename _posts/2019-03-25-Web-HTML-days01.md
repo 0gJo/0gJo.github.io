@@ -10,7 +10,7 @@ categories: HTML
 2.  시스템변수 새로만들기 : 변수값에 C드라이브 톰캣설치파일로 설정
 3.  Path - 편집해서  [%CATALINA_HOME%\bin] 새로만들기
 4.  자바에서 NEW- Dynamic Web Project
-![install2](./images/tomcat.PNG)
+![install2](../images/tomcat.PNG)
 
 ![install1](https://github.com/0gJo/Class/blob/master/%EC%BA%A1%EC%B2%982.PNG?raw=true)
 5.  TargetRuntime 을 현재 설치된 톰캣버전으로 설정 (서버를 설정하는 단계임 / Eclipse에 톰캣서버를 plug-in하는것 (직접 컴퓨터에 서버설치x )
