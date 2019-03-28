@@ -125,7 +125,7 @@ frameborder="0"
 
 
 
-<pre>
+{% highlight html %}
 <table>
 <caption></caption> : 제목
 
@@ -151,4 +151,4 @@ frameborder="0"
 </tfoot>
 
 </table>
-</pre>
+{% endhighlight %}
